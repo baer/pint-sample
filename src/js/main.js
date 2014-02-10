@@ -9,7 +9,8 @@
     'sour beer',
     'IPA',
     'hefferveisen',
-    'cream ale'
+    'cream ale',
+    'scottish'
   ]
 
   var bringMeYourBestBeer = function () {
