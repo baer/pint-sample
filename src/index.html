@@ -25,7 +25,7 @@
       </p>
       <br>
       <p>
-        Pint is a concurrent dependency aware wrapper around <a href="http://http://gruntjs.com/">Grunt.js</a>. Because it runs grunt processes under the hood you can continue to take advantage of the enormous Grunt plugin ecosystem and you can reuse all your existing grunt config.  
+        Pint is a small, concurrent wrapper around <a href="http://http://gruntjs.com/">Grunt.js</a> attempting to solve some of the problems that accompany a build process at scale. A typical Gruntfile starts with, at a minimum, some variation of: jsHint, jasmine, LESS, handlebars, uglify, copy, and clean stack. Just these half dozen or so plugins can balloon your Gruntfile upwards of 300 lines and when you add complex concatenation, cache busting, and versioning can cause it to grow well in to the 1000+ lines. Pint allows you to break up and organize your build into small testable pieces.
       </p>
       <br>
       <p>

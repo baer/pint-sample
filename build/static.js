@@ -11,11 +11,11 @@ module.exports = {
   ],
 
   initialize: function() {
-    console.log('I am an initializer');
+    console.log('Set up all the CSS');
   },
 
   finalize: function() {
-    console.log('I am a finalizer');
+    console.log('Tear down all the CSS');
   },
 
   config: {

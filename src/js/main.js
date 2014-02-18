@@ -11,12 +11,12 @@
     'hefferveisen',
     'cream ale',
     'scottish'
-  ]
+  ];
 
   var bringMeYourBestBeer = function () {
     var beerNumber = (Math.random()*10|0) % beers.length;
     return beers[beerNumber];
-  }
+  };
 
   $(function() {
     $('.beer').text(bringMeYourBestBeer());
